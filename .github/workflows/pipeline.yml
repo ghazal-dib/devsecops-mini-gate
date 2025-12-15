@@ -1,23 +1,20 @@
-name: DevSecOps Mini Gate
+name: DevSecOps Final Gate
 
-on:
-  push:
+on: [push]
 
 jobs:
   gate:
     runs-on: ubuntu-latest
-
     env:
       API_KEY: ${{ secrets.API_KEY }}
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
 
-      - name: Run security gate
+      - name: Run gate
         run: python gate.py

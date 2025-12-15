@@ -1,0 +1,19 @@
+{
+  "Results": [
+    {
+      "Target": "image:backend",
+      "Vulnerabilities": [
+        {"Severity": "LOW"},
+        {"Severity": "HIGH"},
+        {"Severity": "HIGH"}
+      ]
+    },
+    {
+      "Target": "image:frontend",
+      "Vulnerabilities": [
+        {"Severity": "MEDIUM"},
+        {"Severity": "LOW"}
+      ]
+    }
+  ]
+}
