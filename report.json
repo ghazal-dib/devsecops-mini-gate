@@ -5,7 +5,7 @@
       "Vulnerabilities": [
         {"Severity": "LOW"},
         {"Severity": "HIGH"},
-        {"Severity": "HIGH"}
+        {"Severity": "LOW"}
       ]
     },
     {
