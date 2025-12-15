@@ -101,8 +101,11 @@ It is suitable for **Junior DevSecOps / Security Automation roles**.
 export API_KEY=test123
 python gate.py
 
+```
 
 ### Windows (PowerShell)
-```bash
+```powershell
 setx API_KEY "test123"
 python gate.py
+
+---
